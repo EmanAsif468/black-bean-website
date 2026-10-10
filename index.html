@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-stone-900 text-white min-h-screen">
+
+  <!-- NAVBAR -->
+   <nav class="sticky top-0 z-10 bg-stone-900/90 backdrop-blur border-b border-stone-700">
+  <div class="max-w-5xl mx-auto flex justify-between items-center px-6 py-4">
+    <a href="#" class="text-2xl font-bold text-amber-400">Black Bean</a>
+    <div class="flex gap-6 text-stone-300">
+      <a href="#menu" class="hover:text-amber-400 transition">Menu</a>
+      <a href="#contact" class="hover:text-amber-400 transition">Contact</a>
+    </div>
+  </div>
+</nav>
+
+  <!-- HERO -->
+   <header class="relative">
+  <img src="latte.jpg" alt="Black Bean coffee" class="w-full h-96 object-cover">
+  <div class="absolute inset-0 bg-black/60 flex flex-col items-center justify-center text-center px-6">
+    <h1 class="text-4xl md:text-6xl font-bold">Fresh Coffee, Every Morning</h1>
+    <p class="mt-4 text-stone-300 text-lg">Handcrafted drinks and fresh bakes.</p>
+    <a href="#menu" class="mt-6 bg-amber-500 text-black font-semibold px-8 py-3 rounded-full hover:bg-amber-400 transition">View Menu</a>
+  </div>
+</header>
+
+  <!-- MENU -->
+    <section id="menu" class="max-w-5xl mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold text-center mb-10">Our Menu</h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <div class="bg-red-200 text-gray-800 w-full rounded-2xl overflow-hidden shadow-lg shadow-red-400 border-gray-200 border-2 hover:-translate-y-1 transition">
+        <img src="Esspresso.jpg" alt="Esspresso coffee" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h2 class="text-3xl font-bold uppercase tracking-wide text-center">Espresso</h2>
+          <p class="text-gray-700 mt-2 text-center">Strong and bold.</p>
+          <button class="block mx-auto bg-gray-800 text-white px-6 py-2 rounded-lg mt-4 hover:bg-gray-700">Order Now</button>
+        </div>
+      </div>
+
+      <div class="bg-amber-100 text-amber-950 w-full rounded-2xl overflow-hidden border-amber-950 border-2 shadow-lg shadow-amber-200 hover:-translate-y-1 transition">
+        <img src="latte.jpg" alt="Latte coffee" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h2 class="text-3xl font-bold uppercase tracking-wide text-center">Latte</h2>
+          <p class="text-amber-700 mt-2 text-center">Smooth and creamy.</p>
+          <button class="block mx-auto bg-amber-900 text-white px-6 py-2 rounded-lg mt-4 hover:bg-amber-800">Order Now</button>
+        </div>
+      </div>
+
+      <div class="bg-purple-100 text-purple-950 w-full rounded-2xl overflow-hidden border-purple-950 border-2 shadow-lg shadow-purple-200 hover:-translate-y-1 transition">
+        <img src="cappuccino.jpg" alt="Cappuccino coffee" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h2 class="text-3xl font-bold uppercase tracking-wide text-center">Cappuccino</h2>
+          <p class="text-purple-700 mt-2 text-center">Light and foamy.</p>
+          <button class="block mx-auto bg-purple-500 text-white px-6 py-2 rounded-lg mt-4 hover:bg-purple-400">Order Now</button>
+        </div>
+      </div>
+
+      <div class="bg-orange-100 text-orange-950 w-full rounded-2xl overflow-hidden border-orange-950 border-2 shadow-lg shadow-orange-200 hover:-translate-y-1 transition">
+        <img src="cold-coffee.jpg" alt="Cold Coffee" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h2 class="text-3xl font-bold uppercase tracking-wide text-center">Cold Coffee</h2>
+          <p class="text-orange-700 mt-2 text-center">Refreshingly cool.</p>
+          <button class="block mx-auto bg-orange-500 text-white px-6 py-2 rounded-lg mt-4 hover:bg-orange-400">Order Now</button>
+        </div>
+      </div>
+
+      <div class="bg-purple-100 text-purple-950 w-full rounded-2xl overflow-hidden border-purple-950 border-2 shadow-lg shadow-purple-200 hover:-translate-y-1 transition">
+        <img src="blueberry-muffin.jpg" alt="Blueberry Muffin" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h2 class="text-3xl font-bold uppercase tracking-wide text-center">Blueberry Muffin</h2>
+          <p class="text-purple-700 mt-2 text-center">Delicious and fruity.</p>
+          <button class="block mx-auto bg-purple-500 text-white px-6 py-2 rounded-lg mt-4 hover:bg-purple-400">Order Now</button>
+        </div>
+      </div>
+
+      <div class="bg-amber-100 text-amber-950 w-full rounded-2xl overflow-hidden border-amber-950 border-2 shadow-lg shadow-amber-200 hover:-translate-y-1 transition">
+        <img src="cheese-cake.jpg" alt="Cheese Cake" class="w-full h-40 object-cover">
+        <div class="p-6">
+          <h2 class="text-3xl font-bold uppercase tracking-wide text-center">Cheese Cake</h2>
+          <p class="text-amber-700 mt-2 text-center">Rich and indulgent.</p>
+          <button class="block mx-auto bg-amber-900 text-white px-6 py-2 rounded-lg mt-4 hover:bg-amber-800">Order Now</button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+   <footer id="contact" class="border-t border-stone-700 py-10 text-center text-stone-400">
+  <p class="text-xl font-bold text-amber-400">Black Bean</p>
+  <p class="mt-2">Your address here</p>
+  <p class="mt-1">Open daily, 8 AM to 11 PM</p>
+  <p class="mt-6 text-sm">© 2026 Black Bean. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
